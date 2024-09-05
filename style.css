@@ -1,0 +1,56 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body > header {
+    background-color: orange;
+    color: white;
+}
+
+body > footer {
+    background-color: orange;
+}
+
+#logo {
+    font-family: "new amsterdam";
+    text-shadow:
+    -1px -1px 0 black, /* Top-left shadow */
+    1px -1px 0 black, /* Top-right shadow */
+   -1px  1px 0 black, /* Bottom-left shadow */
+    1px  1px 0 black; /* Bottom-right shadow */ ;
+}
+
+.navbutton {
+    color: aqua;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 30px;
+    margin-left: 20px;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+form {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+img {
+    border: radius 100px;
+}
+
+#main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    display: flex;
+    padding: 30px;
+}
