@@ -3,12 +3,12 @@ body {
 }
 
 body > header {
-    background-color: orange;
+    background-color: blue;
     color: white;
 }
 
 body > footer {
-    background-color: orange;
+    background-color:blue;
 }
 
 #logo {
@@ -21,7 +21,7 @@ body > footer {
 }
 
 .navbutton {
-    color: aqua;
+    color:lightgreen;
     text-decoration: none;
     list-style-type: none;
     padding: 30px;
